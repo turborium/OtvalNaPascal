@@ -1,0 +1,19 @@
+object FormMain: TFormMain
+  Left = 716
+  Height = 240
+  Top = 426
+  Width = 320
+  Caption = 'FormMain'
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnKeyUp = FormKeyUp
+  OnPaint = FormPaint
+  LCLVersion = '2.0.10.0'
+  object TimerGlitch: TTimer
+    Interval = 33
+    OnTimer = TimerGlitchTimer
+    Left = 96
+    Top = 70
+  end
+end
